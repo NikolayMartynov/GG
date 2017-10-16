@@ -1,0 +1,304 @@
+/* Theme Color */
+:root {
+  --main-color: #1abc9c;
+}
+
+/* Top Nav */
+
+#topnav{
+	height: 95px;
+	padding: 0px 40px;
+}
+
+#topnav a{
+	font-size: 18px;
+	color:white;
+}
+
+#topnav a:hover{
+	text-decoration: none;
+	color: var(--main-color);
+}
+
+#headerlogo{
+	float: left;
+	margin-top: 20px;
+}
+
+#headerlogo .logo{
+	font-size: 30px;
+	font-weight: 700;
+}
+
+#navigation{
+	margin-top: 20px;
+}
+
+#navigation a:hover{
+	background-color: transparent;
+}
+
+.navbar-toggle{
+	margin-left: 100px;
+    margin-top: 25px;
+}
+
+.navbar-toggle .icon-bar{
+	background-color: white;
+}
+
+/* Body */
+
+body{
+	font-family: 'Ubuntu', 'Arial';
+	font-size: 18px;
+	color:#9A938B;
+	background-color: #F4F4F4;
+
+}
+
+body h1, h2{
+	font-weight: 700;
+	color:grey;
+	margin-bottom: 30px;
+}
+
+body h3, h4
+{
+	color: var(--main-color);
+	font-weight: 700;
+	font-size: 22px;
+	margin-bottom: 30px;
+}
+
+body a{
+	cursor: pointer;
+}
+
+ .white-bg{
+ 		background-color: white;
+ }
+
+.row-70{
+	width: 70%;
+	margin:auto;
+}
+/* Footer */
+#footer{
+	background-color: grey;
+	color: white;
+	padding: 55px 0px 15px 0px !important;
+}
+
+#footer h4{
+	margin-top: 10px;
+	color: white;
+}
+
+#footer ul{
+
+	list-style: none;
+    padding-left: 0;
+    line-height: 1.8;
+
+}
+
+#footer a{
+	color: var(--main-color) ;
+
+}
+
+#copyright{
+	margin-bottom: 15px;
+}
+
+/* Icons */
+.fa{
+	color:var(--main-color);
+	font-size: 30px;
+}
+
+.fb-icon{
+	height: 42px;
+}
+
+/* Spacers */
+.spacer{
+	height: 150px;
+}
+
+.spacer-sm{
+	height: 45px;
+}
+
+/*************************** INDEX.HTML ***************************/
+
+#content .row{
+	padding: 45px 0px 45px 0px;
+}
+
+/* Wrapper */
+.background-image{
+	background-image: url("../images/maison.png");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.4);
+
+}
+
+#wrapper{
+	min-height: 600px;
+	padding:100px 50px;
+}
+
+#wrapper h1{
+	text-shadow: 2px 2px 5px rgba(211,84,22);
+	font-size:48px;
+	color:white;
+	margin-top:60px; 
+}
+
+
+#wrapper h2{
+	/*text-shadow: 1px 1px 3px #16a085;*/
+	font-size:25px;
+	margin-bottom: 50px;
+	color:white;
+}
+
+.cta{
+	padding:12px 30px 12px 30px;
+	font-size: 18px;
+	background-color: var(--main-color);
+	color:white;
+}
+
+.cta:hover{
+	background-color: var(--main-color);
+	color:white !important;
+	border:1px solid var(--main-color);
+}
+
+#wrapper .cours-container{
+	color:#00799B;
+	padding:20px 30px;
+	border-radius: 15px;
+
+}
+
+#wrapper .cours-container .cours-header{
+	color:#9A938B;
+	border-bottom: 1px solid #c9c9c9;
+
+}
+
+#wrapper .cours-container h3{
+color:#1abc9c;
+}
+
+#wrapper .cours-container .cours-body{
+	color:#9A938B;
+
+}
+
+/* Presentation */
+#content h2{
+	margin-bottom: 65px;
+}
+
+.box-sm{
+	background-color: white;
+	min-height: 330px;
+	padding: 40px 20px 10px 20px;
+	box-shadow: 1px 1px 5px rgb(220,220,220);
+	margin-bottom: 25px;
+}
+
+/* Comment ça marche */
+
+
+/* Supports */
+#supports{
+	background-color: white;
+	padding: 45px 10px 45px 40px !important;
+}
+
+#supports h3{
+	color:black;
+}
+
+.supports-logo{
+	margin-top: 22px;
+}
+
+/* Programme */
+#programme{
+	width: 70%;
+	margin:auto;
+}
+
+#courses{
+	margin-bottom: 15px;
+	overflow: hidden;
+	padding: 0px 5px 5px 5px;
+}
+
+#courses .box-course{
+	background-color: white;
+	min-height: 190px;
+	border-radius: 15px;
+	box-shadow: 1px 1px 5px rgb(220,220,220);
+	padding: 20px 20px;
+	margin-bottom: 15px;
+}
+
+#courses .box-course a{
+	color:var(--main-color);
+	cursor: pointer;
+}
+
+/* Form */
+.inscriptionForm{
+	width: 80%;
+	margin:auto;
+	padding: 10px 20px 10px 20px;
+}
+
+.inscriptionForm #mce-FNAME{
+	width: 50%;
+}
+
+.inscriptionForm #mce-LNAME{
+	width: 49%;
+}
+
+
+/*************************** PROPOS.HTML ***************************/
+
+/* Css clean : background override only*/
+
+.topnav-apropos-bg{
+	background-color: #c0c0c0;
+}
+
+ .circle{
+ 	border-radius:150px;
+ }
+ 
+ .teamDesc{
+ 	width: 70%;
+ 	margin-top: 15px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ }
+ /*************************** Détail1.HTML ***************************/
+
+ul.arrow{
+	list-style-image: url('/images/flêche.png');
+}
+
+
+
+
